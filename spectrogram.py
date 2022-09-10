@@ -6,7 +6,7 @@ import io
 from PIL import Image
 
 # open .wav audio file
-rate, audio = wavfile.read('./inputwav')
+rate, audio = wavfile.read('./input.wav')
 
 # convert to mono
 audio = np.mean(audio, axis=1)
